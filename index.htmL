@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cam2Net Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e740f7b92.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">
+                <image src="cam2net.png" alt="Cam2net Logo"></image>
+            </a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#Contact" class="navbar_links" id="contact-page">Contact Us</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#Plan Offers" class="navbar_links" id="plan-page">Plan Offers</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#Area Coverage" class="navbar_links" id="area-page">Area Coverage</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="#sign-up" class="button" id="sign-up">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+
+    <div class="hero" id="home">
+        <div class="hero_container"> 
+            <h1 class="hero_heading">"Making A Difference"</h1>
+            <h2>GET THE INTERNET THAT YOU DESERVE</h2>
+        </div>
+        <div class="application_form" data-aos="fade-up" data-aos-duration="1000"  data-aos-once="false">
+            <a class="appilcation_link" href="application.html" target="_blank"> Apply Now</a>
+        </div>
+        <!--<div class="application_form" data-aos="fade-up" data-aos-duration="1000"  data-aos-once="false">
+            <button class="application_link" onclick="document.getElementById('login-form').style.display='block'" style="width:auto";> Apply Now</button>
+        </div>-->
+    </div>
+
+    <!--Contact Section-->
+
+    <div class="main" id="Contact">
+        <d iv class="main_container">
+            <div class="main_img-container">
+                <div class="main_img-card"><i class="fa-solid fa-phone"></i></div>
+            </div>
+            <div class="main_content">
+                <h1>How can we help you?</h1>
+                <h2>If you have questions in mind, don't hesitate to contact us</h2>
+                <p>To learn more about our offers and services, click below to call us.</p>
+                <div class="btn_content">
+                    <button class="call_btn"><a href="tel:+639979112814">09979112814</a></button>
+                    <button class="call_btn"><a href="tel:+639051870328">09051870328</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Plan Offers Section-->
+    <div class="main_plan-offers" id="Plan Offers">
+        <div class="main_plan-heading">
+            <h1>Internet Plan Offers</h1>
+            <h2>Fastest & Unlimited</h2>
+        </div>
+        <div class="plans_container">
+            <div class="plancard1">
+                <div class="plan_card" data-aos="fade-up" data-aos-duration="1000"  data-aos-once="false">
+                    <a href="application.html" target="_blank">
+                        <h2>Plan 10 MBPS</h2>
+                        <p><i class="fa-solid fa-peso-sign"></i> 1000/month</p>
+                    </a>
+                </div>
+            </div>
+            <div class="plancard2">
+                <div class="plan_card" data-aos="fade-up" data-aos-duration="1000"  data-aos-once="false">
+                    <a href="application.html" target="_blank">
+                        <h2>Plan 25 MBPS</h2>
+                        <p><i class="fa-solid fa-peso-sign"></i> 1500/month</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="installation_heading">
+            <h1>Installation Fee:</h1>
+        </div>
+        <div class="installation_container">
+            <div class="installation_content" data-aos="fade-up" ata-aos-duration="1000" data-aos-once="true">
+                <p><i class="fa-solid fa-peso-sign"></i>1000 cash</p>
+                <p><i class="fa-solid fa-peso-sign"></i>1000 Installment for 10 months</p>
+                <p>Total of: <i class="fa-solid fa-peso-sign"></i>2,000</p>   
+            </div>
+        </div>
+    </div>
+
+    <!--Area Coverage-->
+
+    <div class="main_area" id="area-page">
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

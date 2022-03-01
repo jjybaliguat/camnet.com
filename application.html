@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!--Application Form-->
+    <div class="main_heading">
+        <h1>CAM2NET APPLICATION FORM</h1>
+        <h2>Please fillup below</h2>
+    </div>
+    <div class='login-page' id='login-form'>
+        <div class="form_container">
+            <form action="send.php" method="post" class='input-group-application' id='application'>
+                Email:
+                <input type='text'class='input-field' name="email" required>
+                First Name:
+                <input type='text'class='input-field' name="first_name" required>
+                Last Name:
+                <input type='text'class='input-field' name="last_name" required>
+                Contact Number:(Avoid White spaces)
+                <input type="text" class='input-field'  name="contact_number" required>
+                Complete address:
+                <input type='text'class='input-field' name="complete_address" required>
+                Select Your Internet Plan
+                <select class='plan-field' name="internet_plan" id="" required>
+                    <option selected hidden value="">Select Here</option>
+                    <option value="Plan 10MBPS">Plan 10MBPS</option>
+                    <option value="Plan 25MBPS">Plan 25MBPS</option>
+                </select>
+                <input type='checkbox'class='check-box' required>I agree to the installation fees.
+                <button type="submit" class="submit-btn" name="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 0;
+	margin: 0;
+    background-image: url(form_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*----application Section*/
+.main_heading h1{
+	background: #1CD8D2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.main_heading h1, .main_heading h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+}
+.main_heading h2{
+	color: #fff;
+	font-size: 2rem;
+}
+.form_container{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.4);
+	padding: 5rem;
+	border-radius: 10px;
+}
+
+.input-group-application
+{
+	color: #fff;
+	display: grid;
+	align-items: center;
+	top: 20px;
+	position: absolute;
+	width: 380px;
+	transition:.5s;
+}
+.input-field
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px 0;
+	margin:10px 5px;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1.5px solid #131313;
+	outline:none;
+	background: transparent;
+}
+.plan-field{
+	width: 100%;
+	padding: 10px 0;
+	margin:10px 5px;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-radius: 5px;
+}
+.submit-btn
+{
+	font-size: 1rem;
+	width: 100%;
+	padding: 20px 30px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	margin-top: 2rem;
+}
+
